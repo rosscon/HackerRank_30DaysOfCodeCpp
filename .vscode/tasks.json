@@ -29,6 +29,12 @@
 		"type": "shell",
 		"command": "osascript -e 'tell application \"Terminal\"\ndo script \"echo hello\"\nend tell'",
 		"problemMatcher": []
+	  },
+	  {
+		"label": "Initialise bin directories",
+		"type": "shell",
+		"command": "mkdir ${workspaceFolder}/bin && for dir in day*/; do mkdir -- \"$dir/bin\"; done",
+		"problemMatcher": []
 	  }
 	]
 }

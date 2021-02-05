@@ -27,8 +27,8 @@ int main() {
     cout << ( i + j ) << endl;
     
     // Print the sum of the double variables on a new line.
-    std::cout << std::fixed;
-    std::cout << std::setprecision(1);
+    cout << fixed;
+    cout << setprecision(1);
     cout << ( d + e ) << endl;
     
     // Concatenate and print the String variables on a new line

@@ -46,13 +46,13 @@ public:
     int getHeight(Node *root)
     {
         if (root == NULL){
-            return 0;
+            return -1;
         }
 
         int leftHeight = getHeight(root->left);
         int rightHeight = getHeight(root->right);
 
-        return 1 + max(leftHeight, rightHeight);
+        return max(leftHeight, rightHeight) + 1;
     }
 
 }; //End of Solution

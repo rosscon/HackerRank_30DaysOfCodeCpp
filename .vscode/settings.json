@@ -8,6 +8,8 @@
         "vector": "cpp",
         "ios": "cpp",
         "stdexcept": "cpp",
-        "queue": "cpp"
+        "queue": "cpp",
+        "random": "cpp",
+        "chrono": "cpp"
     }
 }
